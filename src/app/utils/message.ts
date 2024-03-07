@@ -1,5 +1,5 @@
+/* istanbul ignore next */
 export const logMessage = (message: string): void => {
-    /* istanbul ignore next */
     console.log(message);
 }
 
