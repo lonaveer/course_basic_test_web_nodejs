@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test": "jest --config=jest.config.unit.ts",
+    "test:watch": "jest --config=jest.config.unit.ts --watch",
+    "test:coverage": "jest --config=jest.config.unit.ts --coverage",
     "itest": "jest --config=jest.config.integration.ts",
     "itest:watch": "jest --config=jest.config.integration.ts --watch",
-    "itest:coverage": "jest --config=jest.config.integration.ts --coverage"
+    "itest:coverage": "jest --config=jest.config.integration.ts --coverage",
+    "alltest": "jest",
+    "alltest:watch": "jest --watch",
+    "alltest:coverage": "jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

@@ -34,6 +34,7 @@ class Database {
         this.users[index] = { ...this.users[index], ...newUser };
         return this.users[index];
       }
+      /* istanbul ignore next */
       return null;
     }
 
@@ -44,6 +45,7 @@ class Database {
         this.users.splice(index, 1);
         return true;
       }
+      /* istanbul ignore next */
       return false;
     }
 

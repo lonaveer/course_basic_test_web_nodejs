@@ -8,7 +8,6 @@ module.exports = {
     	"!<rootDir>/src/**/*.test.ts", 	// ยกเว้นไฟล์ TypeScript ประเภท test ทั้งหมด
     ],
 	testMatch: [
-		'<rootDir>/src/test/**/*.test.ts'
-	],									// ทำการรันเฉพาะไฟล์ Test ที่อยู่ในโฟลเดอร์ test ทั้งหมด (Unit + Integration)
+		'<rootDir>/src/test/unit-test/**/*.test.ts'
+	],									// ทำการรันเฉพาะไฟล์ Test ที่อยู่ในโฟลเดอร์ test/unit-test
 };
-
