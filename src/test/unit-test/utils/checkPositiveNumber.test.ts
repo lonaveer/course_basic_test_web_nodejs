@@ -1,4 +1,4 @@
-import { checkPositiveNumber } from '../../app/utils/checkPositiveNumber';
+import { checkPositiveNumber } from '../../../app/utils/checkPositiveNumber';
 
 describe('checkPositiveNumber function', () => {
   test('throws an error when the number is negative', () => {

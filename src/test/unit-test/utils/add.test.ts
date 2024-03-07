@@ -1,4 +1,4 @@
-import { add } from '../../app/utils/add';
+import { add } from '../../../app/utils/add';
 
 describe('add function', () => {
   test('adds two numbers correctly', () => {

@@ -1,4 +1,4 @@
-import { processData } from '../../app/utils/processData';
+import { processData } from '../../../app/utils/processData';
 
 describe('processData function', () => {
   it('calls callback with processed data', () => {

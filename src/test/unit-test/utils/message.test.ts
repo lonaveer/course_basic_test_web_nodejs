@@ -1,4 +1,4 @@
-import * as messageModule from "../../app/utils/message";
+import * as messageModule from "../../../app/utils/message";
 
 describe('sendMessage', () => {
   it('calls logMessage with the correct message', () => {

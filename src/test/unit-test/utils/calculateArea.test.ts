@@ -1,4 +1,4 @@
-import * as geometry from "../../app/utils/calculateArea"
+import * as geometry from "../../../app/utils/calculateArea"
 
 describe('calculateArea function', () => {
   it('tracks call to calculateArea', () => {

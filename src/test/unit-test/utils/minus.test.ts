@@ -1,4 +1,4 @@
-import { minus } from '../../app/utils/minus';
+import { minus } from '../../../app/utils/minus';
 
 describe('Minus function tests', () => {
   let baseValue: number;

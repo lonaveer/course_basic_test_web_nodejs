@@ -1,4 +1,4 @@
-import { fetchData } from '../../app/utils/dataFetcher';
+import { fetchData } from '../../../app/utils/dataFetcher';
 import axios from 'axios';
 
 // Mock โมดูล axios

@@ -1,4 +1,4 @@
-import { multiply } from '../../app/utils/multiply';
+import { multiply } from '../../../app/utils/multiply';
 
 describe('Test multiply()', () => {
     describe('Not Use : Parametrized Tests', () => {
